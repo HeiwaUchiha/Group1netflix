@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    color: white;
+}
+header{
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(NG-en-20220801-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 150px;
+    margin-left: 56px;
+    margin-top: 28px;
+}
+.sign ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 28px;
+    padding-right: 15px;
+}
+.sign ul li{
+    background-color: rgb(219, 47, 47);
+    padding: 7px 17px 7px 17px;
+    margin-right: 56px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sign ul li:hover{
+    background-color: rgb(185, 32, 32);
+}
+.welcome{
+    margin-top: 140px;
+}
+.welcome h1{
+    font-size: 45px;
+}
+.p1{
+    font-size: 25px;
+    margin-top: 18px;
+}
+.p2{
+    margin-top: 21px;
+}
+.form-control{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.email{
+    padding: 20px 300px 20px 10px;
+}
+.btn{
+    padding: 15px 49px 15px 27px;
+    color: white;
+    background-color: rgb(219, 47, 47);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(185, 32, 32);
+}
+.faq{
+    background-color: black;
+    height: 200vh;
+    border-top: 10px solid rgb( 32, 32, 32);
+}
+.faq h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+.faq-details{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.summary1{
+    background-color: rgb( 32, 32, 32);
+    width: fit-content;
+    padding: 20px 657px 20px 31px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.summary1:hover{
+    background-color: rgb(22, 22, 22);
+}
+.summary2{
+    margin-top: 10px;
+    background-color: rgb( 32, 32, 32);
+    width: fit-content;
+    padding: 20px 492px 20px 31px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.summary2:hover{
+    background-color: rgb(22, 22, 22);
+}
+.summary3{
+    margin-top: 10px;
+    background-color: rgb( 32, 32, 32);
+    width: fit-content;
+    padding: 20px 605px 20px 31px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.summary3:hover{
+    background-color: rgb(22, 22, 22);
+}
+.summary4{
+    margin-top: 10px;
+    background-color: rgb( 32, 32, 32);
+    width: fit-content;
+    padding: 20px 640px 20px 31px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.summary4:hover{
+    background-color: rgb(22, 22, 22);
+}
+.summary5{
+    margin-top: 10px;
+    background-color: rgb( 32, 32, 32);
+    width: fit-content;
+    padding: 20px 500px 20px 31px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.summary5:hover{
+    background-color: rgb(22, 22, 22);
+}
+.summary6{
+    margin-top: 10px;
+    background-color: rgb( 32, 32, 32);
+    width: fit-content;
+    padding: 20px 560px 20px 31px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.summary6:hover{
+    background-color: rgb(22, 22, 22);
+}
+details p{
+    font-size: 28px;
+    background-color: rgb( 32, 32, 32);
+    border-top: 5px solid black;
+    padding: 15px 0 15px 20px;
+}
+.ready{
+    margin-top: 45px;
+    text-align: center;
+}
