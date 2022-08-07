@@ -1,0 +1,270 @@
+                            * {
+                                padding: 0;
+                                margin: 0;
+                            }
+                            
+                            ul {
+                                list-style: none;
+                            }
+                            
+                            .container {}
+                            
+                            header {
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 20px
+                            }
+                            
+                            header h1 {
+                                color: red;
+                                font-size: 2.7rem;
+                            }
+                            
+                            .backgroundContainer {
+                                background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url(images/NG-en-20220801-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+                                z-index: 1;
+                                background-origin: content-box;
+                                background-repeat: no-repeat, repeat;
+                                background-size: cover;
+                                background: linear-gradient(0, 0, 1.4)
+                            }
+                            
+                            header .login {}
+                            
+                            header .login button {
+                                width: 100px;
+                                padding: 10px;
+                                border-radius: 3px;
+                                color: #fff;
+                                background-color: red;
+                            }
+                            
+                            .section1 {
+                                margin: 0px auto;
+                                padding: 75px 0;
+                                position: relative;
+                                text-align: center;
+                                width: 100%;
+                                height: 50%;
+                                z-index: 1;
+                                color: #fff;
+                                border-bottom: 8px solid rgb(34 34 34);
+                            }
+                            
+                            .section1 h1 {
+                                font-size: 3.5rem;
+                                font-family: sans-serif;
+                            }
+                            
+                            .section1 h3 {
+                                font-size: 1.625rem;
+                                padding-bottom: 20px;
+                                padding: 4 5%;
+                                font-family: verdana, Verdana, Geneva, Tahoma, sans-serif;
+                            }
+                            
+                            .section1 p {
+                                font-weight: 400;
+                                margin: 0 auto;
+                                max-width: 450px;
+                                padding: 2 5%;
+                                font-size: 1rem;
+                                padding-bottom: 20px;
+                                font-family: verdana, Verdana, Geneva, Tahoma, sans-serif;
+                            }
+                            
+                            .form {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 0;
+                            }
+                            
+                            .form input[type="text"] {
+                                width: 500px;
+                                line-height: 3rem;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 16px;
+                                border: none;
+                                padding-left: 10px;
+                                border: none;
+                            }
+                            
+                            .form input[type="submit"] {
+                                line-height: 2.7rem;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 14px;
+                                border: none;
+                                padding: 2px;
+                                width: 200px;
+                                font-size: 1.675rem;
+                                position: relative;
+                                background-color: red;
+                                color: #fff;
+                            }
+                            
+                            .section2 {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 50px 45px;
+                                background: #000;
+                                color: #fff;
+                                border-bottom: 8px solid rgb(34 34 34);
+                            }
+                            
+                            .header1 {
+                                padding-left: 0px 48px 0px 0px;
+                            }
+                            
+                            .header1 h1 {
+                                font-size: 40;
+                                margin-bottom: 10px;
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+                            
+                            .header1 h3 {
+                                font-size: 1.625rem;
+                                font-weight: 400;
+                                margin-bottom: 10px;
+                                font-family: Helvetica, sans-serif;
+                            }
+                            
+                            .section2 img {
+                                border: 0;
+                                height: auto;
+                                max-width: 90%;
+                            }
+                            
+                            .section3 {
+                                align-items: center;
+                                display: flex;
+                                justify-content: space-between;
+                                margin: 0 auto;
+                                max-width: 100%;
+                                background-color: #000;
+                                color: #fff;
+                                padding: 75px 45px;
+                                border-bottom: 8px solid rgb(34 34 34);
+                            }
+                            
+                            .section3 .images {
+                                margin: 10px;
+                            }
+                            
+                            .section3 .images img {
+                                width: 480px;
+                            }
+                            
+                            .section3 .section3pages {
+                                padding-right: 20px;
+                            }
+                            
+                            .section3 .section3pages h1 {
+                                font-size: 50px;
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+                            
+                            .section3 .section3pages h3 {
+                                margin: 19.5px 0px 6.5px;
+                            }
+                            
+                            .images3 {
+                                position: relative
+                            }
+                            
+                            .section4 {
+                                background-color: #000;
+                                color: #fff;
+                                padding: 70px 75px;
+                                border-bottom: 8px solid rgb(34 34 34);
+                            }
+                            
+                            .section4 h1 {
+                                font-size: 50px;
+                                padding-left: 75px;
+                            }
+                            
+                            .section4 h4 {
+                                font-size: 30px;
+                                padding-left: 75px;
+                                padding-right: 75px;
+                            }
+                            
+                            .section5 {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background-color: #000;
+                                color: #fff;
+                                padding: 70px 75px;
+                                border-bottom: 8px solid rgb(34 34 34);
+                            }
+                            
+                            .section5 img {
+                                width: 420px;
+                                border-bottom: 8px solid rgb(34 34 34);
+                            }
+                            
+                            .section5 h1 {
+                                font-size: 50px;
+                                padding-left: 75px;
+                            }
+                            
+                            .section5 h3 {
+                                font-size: 20px;
+                                padding-left: 75px;
+                                padding-right: 75px;
+                            }
+                            
+                            .section6 {
+                                background-color: #000;
+                                border-bottom: 8px solid rgb(34 34 34);
+                            }
+                            
+                            .section6 h1 {
+                                text-align: center;
+                                font-size: 3.2rem;
+                                color: #fff;
+                            }
+                            
+                            .details {
+                                margin: 20px 20%;
+                            }
+                            
+                            .details summary {
+                                background: rgb(48 48 48);
+                                font-weight: 400;
+                                margin-bottom: 2px;
+                                padding: .8em;
+                                position: relative;
+                                width: 94.5%;
+                                font-size: 20px;
+                                padding: 20px;
+                            }
+                            
+                            .details {}
+                            
+                            .details p {
+                                background: rgb(48 48 48);
+                                color: #fff;
+                                padding: 20px;
+                                font-size: 1.3rem;
+                                margin: 2px;
+                            }
+                            
+                            .footer {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-evenly;
+                                padding: 30px;
+                                background: #000;
+                            }
+                            
+                            li {
+                                color: rgb(115 115 115);
+                                font-size: 15px;
+                                font-weight: 400;
+                                line-height: 25px;
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
