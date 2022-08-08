@@ -1,0 +1,305 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.father1 {
+  background-image: url(image/netflix.jpg);
+  background-repeat: none;
+  background-size: cover;
+  position: relative;
+  height: 45rem;
+}
+.container {
+  z-index: 10;
+}
+.father2 {
+  background-color: rgba(8, 6, 6, 0.685);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.father3 {
+  display: flex;
+  justify-content: center;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+img {
+  width: 10rem;
+  margin-top: 0.7rem;
+  margin-left: 3rem;
+}
+
+#child2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.child2 {
+  background-color: #e50914;
+  color: white;
+  font-weight: 550;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 0.4rem;
+  border-color: none;
+  padding: 0.6rem;
+  margin-top: 2.5rem;
+  margin-right: 2rem;
+}
+.container2 {
+  padding: 9.5rem 0;
+  text-align: center;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 300%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  text-align: center;
+  margin: 0 20rem;
+}
+
+.p1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  margin: 1rem 10rem;
+}
+
+.p2 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  margin-left: 2rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0 0 0;
+}
+#email {
+  width: 500px;
+  border-radius: 2px;
+  border: none;
+  border-color: white;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 3.8rem;
+}
+
+#p3 {
+  background-color: #e50914;
+  color: white;
+  width: 200px;
+  font-size: x-large;
+  font-family: Helvetica, Arial, sans-serif;
+  border-radius: 2px;
+  border-color: none;
+  border: 1px #dddfe2;
+}
+
+.mother {
+  border-top: 8px solid #737373;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 30rem;
+  padding: 5rem 2.5rem;
+}
+.m {
+  margin: 3.8rem 0;
+  margin-left: 1.5rem;
+}
+
+.m1 {
+  color: white;
+  font-size: 300%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.m2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  width: 500px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.imgi {
+  display: contents;
+  align-items: center;
+  margin-right: 6rem;
+}
+.img {
+  width: 95%;
+}
+.brother {
+  border-top: 8px solid #737373;
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  height: 30rem;
+  padding: 70px 50px;
+  padding-bottom: 20px;
+}
+.img1 {
+  align-items: center;
+  height: 23rem;
+  width: 30rem;
+  margin-bottom: 8rem;
+  padding-right: 6rem;
+}
+
+.b {
+  margin-top: 6rem;
+}
+
+.b1 {
+  color: white;
+  font-size: 300%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.b2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  width: 450px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.sister {
+  border-top: 8px solid #737373;
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  height: 15rem;
+  padding-bottom: 2rem;
+}
+
+.s {
+  margin-top: 2rem;
+}
+.s1 {
+  color: white;
+  font-size: 300%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.s2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  width: 450px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.sibling {
+  border-top: 8px solid #737373;
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  height: 30rem;
+  padding: 4rem;
+}
+
+.img2 {
+  align-items: center;
+  height: 23rem;
+  width: 30rem;
+  margin-bottom: 3rem;
+}
+
+.sib {
+  margin-top: 4rem;
+  align-items: center;
+}
+
+.sib1 {
+  color: white;
+  font-size: 300%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.sib2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  width: 450px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.uncle {
+  border-top: 8px solid #737373;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 4.5rem 3rem;
+}
+.top {
+  color: white;
+  font-size: 300%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.section1 {
+  color: white;
+  margin: 4rem 0;
+}
+.sect1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  background-color: #303030;
+  border-top: 5px solid black;
+  padding: 15px 0 15px 20px;
+}
+.sect {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  margin-bottom: 1rem;
+  background-color: #303030;
+  padding-left: 2rem;
+  margin-top: 10px;
+}
